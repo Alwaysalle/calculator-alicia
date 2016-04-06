@@ -3,7 +3,7 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-public class CalculationSubtraction {
+public class CalculationSubtractionTest {
 
 	@Before
 	public void setUp() throws Exception {
