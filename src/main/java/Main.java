@@ -5,7 +5,9 @@ public class Main {
 		// TODO Auto-generated method stub
 		double firstNumber=3.5;
 		double secondNumber = 6.5;
+		
 		Calculator calculator = new Calculator();
+		
 		System.out.println(calculator.addition(firstNumber,secondNumber));
 		System.out.println(calculator.subtraction(firstNumber,secondNumber));
 		System.out.println(calculator.divide(firstNumber,secondNumber));

@@ -3,4 +3,11 @@
   <groupId>com.databasehantering.nackademin</groupId>
   <artifactId>calculator-alicia</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+		<dependency>
+			<groupId>JUNIT</groupId>
+			<artifactId>JUNIT</artifactId>
+			<version>4.12</version>
+		</dependency>
+	</dependencies>
 </project>
