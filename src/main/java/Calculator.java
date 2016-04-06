@@ -3,7 +3,6 @@ public class Calculator {
 	double result;
 	
 	public double addition(double firstValue, double secondValue){
-		
 		result = firstValue + secondValue;
 		return result;
 	}
@@ -12,7 +11,11 @@ public class Calculator {
 		return result;
 	}
 	public double divide(double firstValue, double secondValue){
-		result = firstValue - secondValue;
+		result = firstValue / secondValue;
+		return result;
+	}
+	public double multiplication(double firstValue, double secondValue){
+		result = firstValue * secondValue;
 		return result;
 	}
 	

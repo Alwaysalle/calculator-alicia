@@ -9,6 +9,7 @@ public class Main {
 		System.out.println(calculator.addition(firstNumber,secondNumber));
 		System.out.println(calculator.subtraction(firstNumber,secondNumber));
 		System.out.println(calculator.divide(firstNumber,secondNumber));
+		System.out.println(calculator.multiplication(firstNumber,secondNumber));
 	}
 
 }
