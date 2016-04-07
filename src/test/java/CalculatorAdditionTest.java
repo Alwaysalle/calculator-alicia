@@ -28,27 +28,8 @@ public class CalculatorAdditionTest {
 	}
 	@Test
 	public void testOnePossitiveOneNegative() {
-		assertEquals(2, calculator.addition(possitiveNr, negativeNr),0d);
+		assertEquals("Resultatet blir inte 2 enligt programmet blir det " + calculator.addition(possitiveNr, negativeNr),2.0, calculator.addition(possitiveNr, negativeNr),0.11d);
 	}
-	/*public String toString(){
-		calculateAverage(this.getFirstGrade(), getSecondGrade(), getThirdGrade());
-		DecimalFormat df= new DecimalFormat("#.0");
-		String information;
-		
-		if (hasClearedTheCourse()){
-			information = "Student: " + getFirstName() + " " + getLastName() + "\n"
-					+ "\tGrades: " + this.firstGrade + ", " + this.secondGrade + ", " + this.thirdGrade + "\n" 
-					+ "\tFinalGrade: " + df.format(this.averageGrade) + "\n" + getFirstName() + " has cleared the course \n–––––––––––––––––––––\n"
-					;
-			return information;
-		}
-		
-		information = "Student: " + getFirstName() + " " + getLastName() + "\n"
-				+ "\tGrades: " + this.firstGrade + ", " + this.secondGrade + ", " + this.thirdGrade + "\n" 
-				+ "\tFinalGrade: " + df.format(this.getAverageGrade()) + "\n" + getFirstName() + " has not cleared the course \n–––––––––––––––––––––\n"
-				;
-		return information;
-		
-		*/
+
 
 }
